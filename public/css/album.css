@@ -1,0 +1,97 @@
+body {
+  direction: rtl;
+  //min-height: 75rem; /* Can be removed; just added for demo purposes */
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  //padding-top: 6rem;
+  //padding-bottom: 6rem;
+  background-color: #fff;
+
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  min-height: 90vh;
+  padding:0px !important;
+  margin-bottom: 0px;
+
+}
+/*
+.jumbotron p{
+  background: rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+*/
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+  color: black;
+
+}
+
+.jumbotron .container {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  color:white;
+}
+
+.signature{
+  margin-top: 10rem;
+  display: inline-block;
+}
+.black{
+  color: black;
+}
+
+.album {
+  //min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+  max-width: 100%;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+#form{
+
+  padding: 5rem;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background: white;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
